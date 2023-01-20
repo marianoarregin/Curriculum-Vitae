@@ -59,3 +59,110 @@ ul{
     background-color: rgb(180, 165, 165); 
     color: black; 
 }
+
+/*---------------------------ESTRUCTURA DEL SITIO--------------------------*/
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+ 
+.aside {
+    flex: 25%; 
+    background-color: #BFBFBF; 
+    padding: 20px; 
+}
+
+#foto_perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: 15px; 
+}
+
+h3{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.datos{
+  margin: 20px;
+  padding: 10px;
+}
+
+.datos p{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+#info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+}
+
+.main {
+    flex: 75%;
+    background-color: azure;
+    padding: 20px;
+}
+
+.about_me{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 30px;
+}
+
+.experiencia h4,
+.formacion h4,
+.habilidades h4,
+.contacto{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 30px;
+}
+
+.experiencia article,
+.formacion article{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 30px;
+}
+
+.logos{    
+    font-size: 80px;
+    text-align: center;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center; 
+    background: #940e0e;
+}
+
+.footer h2{
+    color: antiquewhite;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+}
+
+.footer p{
+    color: antiquewhite;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+}
