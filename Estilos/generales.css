@@ -6,12 +6,12 @@
     padding: 0;
 }
 
-a{
+a {
     color: #940e0e;
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -62,44 +62,43 @@ ul{
 
 /*---------------------------ESTRUCTURA DEL SITIO--------------------------*/
 
-
 .row {
     display: flex;
     flex-wrap: wrap;
 }
   
  
-.aside {
+.aside { /*-----Panel izquierto-----*/
     flex: 25%; 
     background-color: #BFBFBF; 
     padding: 20px; 
 }
 
-#foto_perfil img{
+#foto_perfil img {
     width: 100%;
     border-radius: 50%;
 }
 
-h1{
+h1 {
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     margin: 15px; 
 }
 
-h3{
+h3 {
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     margin: 15px;
 }
 
-.datos{
+.datos {
   margin: 20px;
   padding: 10px;
 }
 
-.datos p{
+.datos p {
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
@@ -112,13 +111,13 @@ h3{
   margin: 10px;
 }
 
-.main {
+.main { /*-----Panel central-----*/
     flex: 75%;
     background-color: azure;
     padding: 20px;
 }
 
-.about_me{
+.about_me {
     text-align: center;
     font-size: 25px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -128,20 +127,20 @@ h3{
 .experiencia h4,
 .formacion h4,
 .habilidades h4,
-.contacto{
+.contacto {
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 30px;
 }
 
 .experiencia article,
-.formacion article{
+.formacion article {
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 30px;
 }
 
-.logos{    
+.logos {    
     font-size: 80px;
     text-align: center;
 }
@@ -152,7 +151,7 @@ h3{
     background: #940e0e;
 }
 
-.footer h2{
+.footer h2 {
     color: antiquewhite;
     font-size: 15px;
     text-transform: uppercase;
@@ -160,9 +159,66 @@ h3{
     letter-spacing: 3px;
 }
 
-.footer p{
+.footer p {
     color: antiquewhite;
     font-size: 12px;
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 3px;
+}
+
+/*---------------------------REDES SOCIALES--------------------------*/
+
+.social {
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+  
+.links a {
+    margin: 0 30px;
+    text-decoration: none
+}
+  
+.links a i {
+    font-size: 3rem;
+}
+
+/*---------------------------FORMULARIO DE CONTACTO--------------------------*/
+
+form {
+    background-color: #940e0e;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+input, textarea {
+    border: 0;
+    outline: none;
+
+    width: 250px;
+}
+
+button {
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: right;
+    font-size: 18px;
+    border-bottom: #000;
+    border-radius: 5px;
 }
