@@ -1,0 +1,62 @@
+#tema{
+    width: 30px;
+    font-size: 60px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dark{
+    background: rgb(17, 9, 54);
+}
+
+.dark #tema{
+    color: plum;
+}
+
+/*---------------------------BANNER--------------------------*/
+
+.dark header {
+    padding: 400px; /*tamaño del banner*/
+    text-align: center; 
+    background: #025159; 
+    color: wheat;
+}
+
+.dark h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+}
+
+.dark h2{
+    margin-top: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dark .aside {
+    flex: 25%; 
+    background-color: rgb(37, 27, 27); 
+    padding: 20px; 
+    color: antiquewhite;
+}
+
+.dark .main{    
+    background-color: rgb(6, 17, 17);
+    color: antiquewhite;    
+}
+
+.dark .footer {
+    padding: 10px;
+    text-align: center; 
+    background: #F25C05;
+}
+
+.dark .footer h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+}
